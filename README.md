@@ -8,7 +8,7 @@ Nombre | Correo
 
 Herramientas para API
 ------
-* Java 8
+* Java 17
 * Java Spring Boot 3.0.5
 * Spring Data JPA
 
