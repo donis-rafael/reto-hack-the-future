@@ -10,7 +10,8 @@ Herramientas para API
 ------
 * Java 17
 * Java Spring Boot 3.0.5
-* Spring Data JPA
+* Maven
+* Spring Data JPA - Hibernate
 
 ******
 
@@ -20,4 +21,8 @@ Herramientas para Base de Datos
 
 ******
 
-## Documentación completa se encuentra en la rama dev
+Servidor Utilizado
+------
+* Apache Tomcat
+
+******
