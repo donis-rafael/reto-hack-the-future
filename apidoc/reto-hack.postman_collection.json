@@ -4,5 +4,687 @@
 		"name": "reto-hack",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
-	"item": []
+	"item": [
+		{
+			"name": "Almacenamiento_Inicial",
+			"item": [
+				{
+					"name": "NuevaCategoria",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"categoria\": \"administrativo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/crear-categoria",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"crear-categoria"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "NuevasCategorias",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    {\r\n        \"categoria\": \"administrativo\"\r\n    },\r\n    {\r\n        \"categoria\": \"proveedor\"\r\n    },\r\n    {\r\n        \"categoria\": \"logistica\"\r\n    },\r\n    {\r\n        \"categoria\": \"distribucion\"\r\n    },\r\n    {\r\n        \"categoria\": \"operacion\"\r\n    },\r\n    {\r\n        \"categoria\": \"ventas\"\r\n    }\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/crear-categorias",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"crear-categorias"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "NuevaHuella",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"anio\": 2022,\r\n    \"mes\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/crear-huella",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"crear-huella"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "NuevasHuellas",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    {\r\n        \"anio\": 2022,\r\n        \"mes\": 1\r\n    },\r\n    {\r\n        \"anio\": 2022,\r\n        \"mes\": 2\r\n    },\r\n    {\r\n        \"anio\": 2022,\r\n        \"mes\": 3\r\n    },\r\n    {\r\n        \"anio\": 2022,\r\n        \"mes\": 4\r\n    },\r\n    {\r\n        \"anio\": 2022,\r\n        \"mes\": 5\r\n    },\r\n    {\r\n        \"anio\": 2022,\r\n        \"mes\": 6\r\n    },\r\n    {\r\n        \"anio\": 2022,\r\n        \"mes\": 7\r\n    },\r\n    {\r\n        \"anio\": 2022,\r\n        \"mes\": 8\r\n    },\r\n    {\r\n        \"anio\": 2022,\r\n        \"mes\": 9\r\n    },\r\n    {\r\n        \"anio\": 2022,\r\n        \"mes\": 11\r\n    },\r\n    {\r\n        \"anio\": 2022,\r\n        \"mes\": 12\r\n    }\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/crear-huellas",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"crear-huellas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "NuevoTipoConsumo",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"tipoConsumo\": \"combustible\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/crear-tipo-consumo",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"crear-tipo-consumo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "NuevosTiposConsumo",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n    {\r\n        \"tipoConsumo\": \"combustible\"\r\n    },\r\n    {\r\n        \"tipoConsumo\": \"energia\"\r\n    },\r\n    {\r\n        \"tipoConsumo\": \"petroleo\"\r\n    },\r\n    {\r\n        \"tipoConsumo\": \"viajes\"\r\n    },\r\n    {\r\n        \"tipoConsumo\": \"papel\"\r\n    }\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/crear-tipos-consumos",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"crear-tipos-consumos"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Consumos",
+			"item": [
+				{
+					"name": "consumo-combustible_1_admin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"anio\": 2022,\r\n    \"mes\": 1,\r\n    \"consumo\": 750,\r\n    \"categoria\": \"administrativo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/consumo-combustible",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"consumo-combustible"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "consumo-combustible_2_admin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"anio\": 2022,\r\n    \"mes\": 6,\r\n    \"consumo\": 750,\r\n    \"categoria\": \"administrativo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/consumo-combustible",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"consumo-combustible"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "consumo-combustible_3_admin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"anio\": 2022,\r\n    \"mes\": 12,\r\n    \"consumo\": 750,\r\n    \"categoria\": \"administrativo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/consumo-combustible",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"consumo-combustible"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "consumo-combustible_1_prov",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"anio\": 2022,\r\n    \"mes\": 1,\r\n    \"consumo\": 500,\r\n    \"categoria\": \"proveedor\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/consumo-combustible",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"consumo-combustible"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "consumo-combustible_2_prov",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"anio\": 2022,\r\n    \"mes\": 6,\r\n    \"consumo\": 500,\r\n    \"categoria\": \"proveedor\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/consumo-combustible",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"consumo-combustible"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "consumo-combustible_3_prov",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"anio\": 2022,\r\n    \"mes\": 12,\r\n    \"consumo\": 500,\r\n    \"categoria\": \"proveedor\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/consumo-combustible",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"consumo-combustible"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "consumo-combustible_1_logis",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"anio\": 2022,\r\n    \"mes\": 1,\r\n    \"consumo\": 1250,\r\n    \"categoria\": \"logistica\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/consumo-combustible",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"consumo-combustible"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "consumo-combustible_2_logis",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"anio\": 2022,\r\n    \"mes\": 6,\r\n    \"consumo\": 1250,\r\n    \"categoria\": \"logistica\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/consumo-combustible",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"consumo-combustible"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "consumo-combustible_3_logis",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"anio\": 2022,\r\n    \"mes\": 12,\r\n    \"consumo\": 1250,\r\n    \"categoria\": \"logistica\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/consumo-combustible",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"consumo-combustible"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "consumo-energia_1_admin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"anio\": 2022,\r\n    \"mes\": 1,\r\n    \"consumo\": 300,\r\n    \"categoria\": \"administrativo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/consumo-energia",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"consumo-energia"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "consumo-energia_2_admin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"anio\": 2022,\r\n    \"mes\": 6,\r\n    \"consumo\": 300,\r\n    \"categoria\": \"administrativo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/consumo-energia",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"consumo-energia"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "consumo-energia_3_admin",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"anio\": 2022,\r\n    \"mes\": 12,\r\n    \"consumo\": 300,\r\n    \"categoria\": \"administrativo\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8081/consumo-energia",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"consumo-energia"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "GETS",
+			"item": [
+				{
+					"name": "combustible-anual-categoria",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/combustible-anual-categoria",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"combustible-anual-categoria"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "combustible-mensual-categoria",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/combustible-mensual-categoria",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"combustible-mensual-categoria"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "segmento-imacta",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/segmento-imacta",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"segmento-imacta"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "energia-mes-envasado",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/energia-mes-envasado",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"energia-mes-envasado"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "compara-energia-combustible",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/compara-energia-combustible",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"compara-energia-combustible"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "mes-derivados-petroleo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/mes-derivados-petroleo",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"mes-derivados-petroleo"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "compara-viajes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/compara-viajes",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"compara-viajes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "mes-aceites",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/mes-aceites",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"mes-aceites"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "minimo-refrigerantes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/minimo-refrigerantes",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"minimo-refrigerantes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "mayor-vs-menor-combustible",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8081/mayor-vs-menor-combustible",
+							"host": [
+								"localhost"
+							],
+							"port": "8081",
+							"path": [
+								"mayor-vs-menor-combustible"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
 }

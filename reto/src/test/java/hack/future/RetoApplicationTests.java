@@ -1,4 +1,4 @@
-package hack.future.reto;
+package hack.future;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
