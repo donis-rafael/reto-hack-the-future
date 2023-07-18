@@ -28,14 +28,11 @@ Servidor Utilizado
 ******
 
 ## Descripción de proyecto
-Proyecto realizado como parte de un reto, impartido por: [*Hack the Future*](https://hackthefuture.dev), en el apartado de *Back-End Developer* brindaron un enunciado y contabamos con un solo día para entregar lo solicitado, el enunciado se encuentra aquí: [*Enunciado Reto Hack The Future*](https://github.com/donis-rafael/reto-hack-the-future/tree/dev).
+Proyecto realizado como parte de un reto, impartido por: [*Hack the Future*](https://hackthefuture.dev), en el apartado de *Back-End Developer* brindaron un enunciado y contabamos con un solo día para entregar lo solicitado, el enunciado se encuentra aquí: [*Enunciado Reto Hack The Future*](https://github.com/donis-rafael/reto-hack-the-future/blob/dev/enunciado/Pruebas-tecnicas-Back-end-Developer.pdf).
 
 Por motivo de ser un proyecto *`Backend`* se utilizó la herramienta *`Postman`* para el consumo del servicio, la colección se encuentra aquí: [*Colección de Postman*](https://github.com/donis-rafael/reto-hack-the-future/blob/dev/apidoc/reto-hack.postman_collection.json).
 
 El Script de la Base de Datos y el diagrama Entidad Relación, se encuentran aquí: [*Base de Datos MySQL*](https://github.com/donis-rafael/reto-hack-the-future/tree/dev/base_de_datos).
-
-Este proyecto se desarrolló con motivo de mostrar un ejemplo práctico en una conferencia brindada para la Escuela de Ciencias y Sistemas en la Universidad de San Carlos de Guatemala, la imagen correspondiente a la conferencia: [*Circular Conferencia*](https://github.com/donis-rafael/ejemplo-heroku/blob/develop/Conferencia/pancartaConferencia.jpg).
-Trata sobre el consumo de servicios tipo *serverless* en *`AWS`*, con el objetivo de hacer reconocimientos faciales (*rekognition*) y traducciones de texto (*translate*), utilizando funciones *`Lambda`* que se consumen a través de un *`API Gateway`*.
 
 ******
 
